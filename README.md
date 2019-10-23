@@ -1,2 +1,1 @@
-# LocaPro
-For Location Prototype
+This is my LocaPro for my website LOCMP
