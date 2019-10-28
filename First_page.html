@@ -3,13 +3,59 @@
   <head>
     <title align="center">LOCAPRO</title>
   </head>
-  <body>
+  <style>
+    .store_image{
+      display : grid;
+      grid-template-columns:15% 15% 15% 35% 15% 5% ;
+    }
+    .image-input{
+      height:80%;
+      width: 50%;
+      padding: 15%;
+    }
+    .image-button{
+      height:15%;
+      width: 50%;
+      text-align: Center;
+      padding: 3%;
+    }
+    .store-coo{
+      display:flex;
+      flex-wrap: wrap;
+    }
+  </style>
+  <body style="background-color:red;">
     <h1 style="Color:Blue;text-align:Center;">LOCAPRO</h1>
-    This will be our Location Prototype!
-    Soon I will be working for the whole idea.
-      <form>
-        <input type="text" placeholder="Your Location" name="name">
-        <button><a href="E:/__Pro.Ide/LocaPro/Beautiful-Steve-Jobs-Quote.jpg">Go</a></button>
-    </form>
+    <h3 style="text-align:center;">Welcome "Store Name"</h3>
+    <p>This will be our Location Prototype!</p>
+    <p>Soon I will be working on the whole idea.
+  </p>
+  <h4 style="width:100px;height:2px;text-align:center;">Store Image:</h4>
+    <div class="store_image">
+      <form style="padding:5%;">
+        <p>Left:</p>
+        <input type="JPEG" placeholder="Left image" name="left_img" class="image-input">
+        <a href="E:/__Pro.Ide/LocaPro/Beautiful-Steve-Jobs-Quote.jpg"><button class="image-button">Upload</button></a>
+      </form>
+      <form style="padding:5%;">
+        <p>Center</p>
+        <input type="JPEG" placeholder="Center Image" name="Center-img" class="image-input">
+        <a href="E:/__Pro.Ide/LocaPro/Beautiful-Steve-Jobs-Quote.jpg"><button class="image-button">Upload</button></a>
+      </form>
+      <form style="padding:05%;">
+        <p>Right</p>
+        <input type="JPEG" placeholder="Right Image" name="left_img" class="image-input">
+        <a href="E:/__Pro.Ide/LocaPro/Beautiful-Steve-Jobs-Quote.jpg"><button class="image-button">Upload</button></a>
+      </form>
+      <p></p>
+      <form style="padding:05%;">
+        <p style="width:150px;">GPS Co-ordinate</P>
+        <input type="text" placeholder="Store Co-ordinate" name="store-coo" style="padding:5%">
+        <a href="E:/__Pro.Ide/LocaPro/Beautiful-Steve-Jobs-Quote.jpg"><button>Go</button></a>
+      </form>
+    </div>
+    <div>
+      <h3 style="width:70px;text-align:center;">Category:</h3>
+    </div>
   </body>
 </html>
