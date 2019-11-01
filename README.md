@@ -1,1 +1,1 @@
-This is my LocaPro for my website LOCMP
+This is my LocaPro for my website LocalMandi.
